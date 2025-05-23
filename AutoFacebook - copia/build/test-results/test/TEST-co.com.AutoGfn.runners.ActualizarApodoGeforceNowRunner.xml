@@ -2,21 +2,9 @@
 <testsuite name="co.com.AutoGfn.runners.ActualizarApodoGeforceNowRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-B3CLJBI" time="0.0">
   <properties/>
   <system-out><![CDATA[
-?[31mFailed scenarios:?[0m
-?[31msrc/test/resources/features/actualizar_apodo_geforcenow.feature:5 ?[0m# Usuario inicia sesión y actualiza su apodo
-
-1 Scenarios (?[31m1 failed?[0m)
-4 Steps (?[31m1 failed?[0m, ?[32m3 passed?[0m)
-1m8,781s
-
-java.lang.AssertionError: Expected validacion apodo
-Expected: is <true>
-     but: was <false>
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
-	at co.com.AutoGfn.stepsdefinitions.GeforceNowStepDefinitions.deberiaVerApodoActualizado(GeforceNowStepDefinitions.java:39)
-	at ?.debería ver mi apodo actualizado(src/test/resources/features/actualizar_apodo_geforcenow.feature:11)
+1 Scenarios (?[32m1 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m45,549s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 

@@ -1,48 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cambiar apodo en GeForce NOW" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-23T00:48:07" hostname="DESKTOP-B3CLJBI" time="68.658">
+<testsuite name="Cambiar apodo en GeForce NOW" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-23T17:53:04" hostname="DESKTOP-B3CLJBI" time="45.425">
   <properties/>
-  <testcase name="Usuario inicia sesión y actualiza su apodo" classname="Cambiar apodo en GeForce NOW" time="68.658">
-    <failure message="java.lang.AssertionError: Expected validacion apodo&#13;&#10;Expected: is &lt;true&gt;&#13;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected validacion apodo
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
-	at co.com.AutoGfn.stepsdefinitions.GeforceNowStepDefinitions.deberiaVerApodoActualizado(GeforceNowStepDefinitions.java:39)
-	at ✽.debería ver mi apodo actualizado(src/test/resources/features/actualizar_apodo_geforcenow.feature:11)
-</failure>
-  </testcase>
-  <system-out><![CDATA[ No se encontró el texto
-]]></system-out>
-  <system-err><![CDATA[may. 22, 2025 7:48:07 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+  <testcase name="Usuario inicia sesión y actualiza su apodo" classname="Cambiar apodo en GeForce NOW" time="45.425"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[may. 23, 2025 12:53:05 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --remote-allow-origins=* --..., goog:chromeOptions: {args: [--remote-allow-origins=*, --disable-blink-features=Au...], binary: C:/Program Files/BraveSoftw..., extensions: [], prefs: {behavior: allow}}, loggingPrefs: org.openqa.selenium.logging..., name: proyecto, platform: ANY, unhandledPromptBehavior: ignore, version: }
-Starting ChromeDriver 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842}) on port 29854
+Starting ChromeDriver 136.0.7103.94 (fa0be0b33debeb378a8e6ad9c599be34e2dc3b37-refs/branch-heads/7103@{#1842}) on port 4018
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 29854.
-may. 22, 2025 7:48:09 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 4018.
+may. 23, 2025 12:53:07 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[Test worker] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot (no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=136.0.7103.113)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-B3CLJBI', ip: '192.168.237.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.113, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\Usuario\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53399}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d7952f7b16cf2f4042191e9238083ff)
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED: Usuario inicia sesión y actualiza su apodo
---------------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then validacion apodo
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected validacion apodoExpected: is <true> but: was <false>
+TEST PASSED: Usuario inicia sesión y actualiza su apodo
+----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
