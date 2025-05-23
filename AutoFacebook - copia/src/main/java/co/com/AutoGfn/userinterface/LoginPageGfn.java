@@ -18,4 +18,5 @@ public class LoginPageGfn extends PageObject {
 
     public static final Target BOTON_CONFIRMAR_INICIO = Target.the("Botón Iniciar sesión")
             .located(By.cssSelector("button[name='login']"));
+
 }

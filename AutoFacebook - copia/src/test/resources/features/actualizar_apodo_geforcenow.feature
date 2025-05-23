@@ -7,5 +7,5 @@ Característica: Cambiar apodo en GeForce NOW
     Cuando inicio sesión con:
       | usuario                | contrasena        |
       | hoboxor421@daxiake.com         | MAgsconra2345@ |
-    Y cambio mi apodo a "NuevoApodo123"
+    Y cambio mi apodo a "henry"
     Entonces debería ver mi apodo actualizado

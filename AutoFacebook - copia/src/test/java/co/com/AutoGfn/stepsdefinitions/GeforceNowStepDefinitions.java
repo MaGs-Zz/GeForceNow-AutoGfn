@@ -1,6 +1,7 @@
 package co.com.AutoGfn.stepsdefinitions;
 
 import co.com.AutoGfn.models.DatosLogin;
+import co.com.AutoGfn.questions.ValidacionApodo;
 import co.com.AutoGfn.tasks.CambiarApodoGfn;
 import co.com.AutoGfn.tasks.IniciarSesionGfn;
 import co.com.AutoGfn.tasks.AbrirPaginaGfn;
@@ -32,4 +33,10 @@ public class GeforceNowStepDefinitions {
     public void cambioApodo(String apodo) {
         theActorInTheSpotlight().attemptsTo(CambiarApodoGfn.a(apodo));
     }
+
+    @Entonces("^debería ver mi apodo actualizado$")
+    public void deberiaVerApodoActualizado() {
+        theActorInTheSpotlight().should(seeThat(ValidacionApodo.validacionApodo()));
+    }
+
 }

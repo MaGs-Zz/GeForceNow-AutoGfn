@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Cambiar imagen de perfil en Twitch" skipped="0" tests="1" time="37.08" timestamp="2025-05-22 09:24:25"><testcase name="Usuario inicia sesión y actualiza su foto de perfil"><error message="element click intercepted: Element &lt;button data-a-target=&quot;user-menu-toggle&quot; data-test-selector=&quot;user-menu__toggle&quot; aria-label=&quot;Menú de usuario&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (1559, 25). Other element would receive the click: &lt;div class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open modal__backdrop js-modal-backdrop&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=136.0.7103.113)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-B3CLJBI', ip: '192.168.237.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.113, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\Usuario\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8291b39976e4594930f92ecd31b0e996" type="org.openqa.selenium.ElementClickInterceptedException">element click intercepted: Element &lt;button data-a-target="user-menu-toggle" data-test-selector="user-menu__toggle" aria-label="Menú de usuario" aria-expanded="false"&gt;...&lt;/button&gt; is not clickable at point (1559, 25). Other element would receive the click: &lt;div class="ReactModal__Overlay ReactModal__Overlay--after-open modal__backdrop js-modal-backdrop"&gt;...&lt;/div&gt;
+  (Session info: chrome=136.0.7103.113)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B3CLJBI', ip: '192.168.237.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.113, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\Usuario\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8291b39976e4594930f92ecd31b0e996</error><system-err>element click intercepted: Element &lt;button
+    data-a-target="user-menu-toggle" data-test-selector="user-menu__toggle" aria-label="Menú de usuario"
+    aria-expanded="false"&gt;...&lt;/button&gt; is not clickable at point (1559, 25). Other element would receive the
+    click: &lt;div class="ReactModal__Overlay ReactModal__Overlay--after-open modal__backdrop js-modal-backdrop"&gt;...&lt;/div&gt;
+    (Session info: chrome=136.0.7103.113)
+    Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+    System info: host: 'DESKTOP-B3CLJBI', ip: '192.168.237.28', os.name: 'Windows 10', os.arch: 'amd64', os.version:
+    '10.0', java.version: '15.0.1'
+    Driver info: org.openqa.selenium.chrome.ChromeDriver
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.113, chrome:
+    {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\Usuario\AppData\Lo...}, fedcm:accounts:
+    true, goog:chromeOptions: {debuggerAddress: localhost:58527}, javascriptEnabled: true, networkConnectionEnabled:
+    false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true,
+    strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+    ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength:
+    true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+    Session ID: 8291b39976e4594930f92ecd31b0e996&#13;
+    co.com.AutoGfn.tasks.CambiarApodoGfn.performAs(CambiarImagenPerfil.java:27)&#13;
+    co.com.AutoGfn.stepsdefinitions.GeforceNowStepDefinitions.cambioImagen(TwitchStepDefinitions.java:34)&#13;
+    cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+    worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+    worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

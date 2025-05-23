@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
+import static co.com.AutoGfn.tasks.Esperar.unosSegundos;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class CambiarApodoGfn implements Task {
@@ -26,6 +27,7 @@ public class CambiarApodoGfn implements Task {
                 Click.on(ConfiguracionPageGfn.AJUSTES),
                 Enter.theValue(nuevoApodo).into(ConfiguracionPageGfn.INPUT_APODO),
                 Click.on(ConfiguracionPageGfn.BOTON_GUARDAR)
+                ,unosSegundos(7)
         );
     }
 }

@@ -6,6 +6,8 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
 import java.util.List;
+
+import static co.com.AutoGfn.tasks.Esperar.unosSegundos;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class IniciarSesionGfn implements Task {
@@ -29,6 +31,8 @@ public class IniciarSesionGfn implements Task {
                 Enter.theValue(dato.getUsuario()).into(LoginPageGfn.INPUT_USUARIO),
                 Enter.theValue(dato.getContrasena()).into(LoginPageGfn.INPUT_CONTRASENA),
                 Click.on(LoginPageGfn.BOTON_CONFIRMAR_INICIO)
+
+
         );
     }
 }
